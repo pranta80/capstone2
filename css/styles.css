@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #E1FFEE;
+}
+
+.white-class {
+    background-color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+.card {
+    border-radius: 9px;
+    flex: 1;
+    max-width: 350px;
+    min-width: 250px;
+    padding: 10px;
+    min-height: 300px;
+  }
+
+.card img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.card ul {
+    padding-top: 10px;
+}
+
+.card li {
+    padding-bottom: 10px;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+  }
+
+.card-features {
+    padding: 0;
+    margin: 0;
+  }
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.basic-text {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.contact-nav li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.contact-item {
+    height: 40px;
+    width: auto;
+}
+
+.contact-item:hover {
+    transform: scale(1.2);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 150px;
+}
+
+.footer-para {
+    margin-right: auto;
+}
+
+@media (max-width: 1024px) {
+    .card-container {
+      flex-direction: column;
+    }
+
+  }
